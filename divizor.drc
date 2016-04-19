@@ -1,0 +1,8 @@
+Release 14.4 Drc P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed Apr 06 23:28:28 2016
+
+drc -z divizor.ncd divizor.pcf
+
+DRC detected 0 errors and 0 warnings.

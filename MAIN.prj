@@ -1,0 +1,7 @@
+vhdl work "INTERIOR_CERC.vhd"
+vhdl work "pixel_counter.vhd"
+vhdl work "H_V_SYNC.vhd"
+vhdl work "divizor.vhd"
+vhdl work "detect_form.vhd"
+vhdl work "culori.vhd"
+vhdl work "mainu.vhd"

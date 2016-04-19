@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.49d on Tue Apr 19 16:40:17 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "HS" LOCATE = SITE "N6" LEVEL 1;
+COMP "RED" LOCATE = SITE "V7" LEVEL 1;
+COMP "VS" LOCATE = SITE "P7" LEVEL 1;
+COMP "BLUE" LOCATE = SITE "T7" LEVEL 1;
+COMP "GREEN" LOCATE = SITE "T6" LEVEL 1;
+COMP "SEL_FORM<0>" LOCATE = SITE "U8" LEVEL 1;
+COMP "SEL_FORM<1>" LOCATE = SITE "N8" LEVEL 1;
+COMP "SEL_COL<0>" LOCATE = SITE "T5" LEVEL 1;
+COMP "SEL_COL<1>" LOCATE = SITE "V8" LEVEL 1;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+SCHEMATIC END;
+

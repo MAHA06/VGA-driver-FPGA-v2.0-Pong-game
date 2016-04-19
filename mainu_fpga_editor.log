@@ -1,0 +1,19 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   D:\XILINX_PROJECTS\vga_2
+#Date/Time:
+#:T   Thu Apr 07 01:13:46 2016
+#------------------------------
+	#Reading mainu.ncd...
+	#Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx\14.4\ISE_DS\ISE\.
+	#   "mainu" is an NCD, version 3.2, device xc3s200, package ft256, speed -5
+	#Design creation date: 2016.04.06.22.07.30
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all

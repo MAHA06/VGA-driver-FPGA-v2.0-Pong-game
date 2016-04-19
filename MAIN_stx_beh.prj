@@ -1,0 +1,6 @@
+vhdl isim_temp "pixel_counter.vhd"
+vhdl isim_temp "H_V_SYNC.vhd"
+vhdl isim_temp "divizor.vhd"
+vhdl isim_temp "detect_form.vhd"
+vhdl isim_temp "culori.vhd"
+vhdl isim_temp "mainu.vhd"

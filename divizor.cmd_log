@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/divizor.xst" -ofn "D:/XILINX_PROJECTS/vga_2/divizor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I divizor.ngc divizor.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o divizor_map.ncd divizor.ngd divizor.pcf 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/divizor.xst" -ofn "D:/XILINX_PROJECTS/vga_2/divizor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I divizor.ngc divizor.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divizor.ucf -p xa7a100t-csg324-2I divizor.ngc divizor.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o divizor_map.ncd divizor.ngd divizor.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divizor.ucf -p xa7a100t-csg324-2I divizor.ngc divizor.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o divizor_map.ncd divizor.ngd divizor.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divizor.ucf -p xa7a100t-csg324-2I divizor.ngc divizor.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o divizor_map.ncd divizor.ngd divizor.pcf 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/divizor.xst" -ofn "D:/XILINX_PROJECTS/vga_2/divizor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divizor.ucf -p xc3s200-ft256-5 divizor.ngc divizor.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o divizor_map.ncd divizor.ngd divizor.pcf 
+par -w -intstyle ise -ol high -t 1 divizor_map.ncd divizor.ncd divizor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divizor.twx divizor.ncd -o divizor.twr divizor.pcf -ucf divizor.ucf 
+bitgen -intstyle ise -f divizor.ut divizor.ncd 

@@ -1,0 +1,37 @@
+V3 22
+FL D:/XILINX_PROJECTS/vga_2/culori.vhd 2016/04/07.01:01:42 P.49d
+EN work/culori 1460034015 FL D:/XILINX_PROJECTS/vga_2/culori.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/culori/Behavioral 1460034016 \
+      FL D:/XILINX_PROJECTS/vga_2/culori.vhd EN work/culori 1460034015
+FL D:/XILINX_PROJECTS/vga_2/detect_form.vhd 2016/04/07.15:59:16 P.49d
+EN work/detect_form 1460033960 FL D:/XILINX_PROJECTS/vga_2/detect_form.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/detect_form/Behavioral 1460033961 \
+      FL D:/XILINX_PROJECTS/vga_2/detect_form.vhd EN work/detect_form 1460033960
+FL D:/XILINX_PROJECTS/vga_2/divizor.vhd 2016/04/07.00:07:48 P.49d
+EN work/divizor 1460034009 FL D:/XILINX_PROJECTS/vga_2/divizor.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/divizor/Behavioral 1460034010 \
+      FL D:/XILINX_PROJECTS/vga_2/divizor.vhd EN work/divizor 1460034009
+FL D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd 2016/04/07.00:53:25 P.49d
+EN work/H_V_SYNC 1460034013 FL D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/H_V_SYNC/Behavioral 1460034014 \
+      FL D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd EN work/H_V_SYNC 1460034013
+FL D:/XILINX_PROJECTS/vga_2/mainu.vhd 2016/04/07.16:00:05 P.49d
+EN work/mainu 1460034017 FL D:/XILINX_PROJECTS/vga_2/mainu.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/mainu/Behavioral 1460034018 \
+      FL D:/XILINX_PROJECTS/vga_2/mainu.vhd EN work/mainu 1460034017 CP divizor \
+      CP pixel_counter CP H_V_SYNC CP culori
+FL D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd 2016/04/07.15:58:43 P.49d
+EN work/pixel_counter 1460034011 FL D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/pixel_counter/Behavioral 1460034012 \
+      FL D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd EN work/pixel_counter 1460034011

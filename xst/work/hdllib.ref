@@ -1,0 +1,12 @@
+AR divizor behavioral D:/XILINX_PROJECTS/vga_2/divizor.vhd sub00/vhpl01 1460034010
+AR detect_form behavioral D:/XILINX_PROJECTS/vga_2/detect_form.vhd sub00/vhpl11 1460033961
+EN h_v_sync NULL D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd sub00/vhpl06 1460034013
+EN divizor NULL D:/XILINX_PROJECTS/vga_2/divizor.vhd sub00/vhpl00 1460034009
+AR culori behavioral D:/XILINX_PROJECTS/vga_2/culori.vhd sub00/vhpl09 1460034016
+EN detect_form NULL D:/XILINX_PROJECTS/vga_2/detect_form.vhd sub00/vhpl10 1460033960
+AR pixel_counter behavioral D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd sub00/vhpl03 1460034012
+AR h_v_sync behavioral D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd sub00/vhpl07 1460034014
+EN culori NULL D:/XILINX_PROJECTS/vga_2/culori.vhd sub00/vhpl08 1460034015
+EN mainu NULL D:/XILINX_PROJECTS/vga_2/mainu.vhd sub00/vhpl04 1460034017
+EN pixel_counter NULL D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd sub00/vhpl02 1460034011
+AR mainu behavioral D:/XILINX_PROJECTS/vga_2/mainu.vhd sub00/vhpl05 1460034018
