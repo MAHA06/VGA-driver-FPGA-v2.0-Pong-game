@@ -1,0 +1,496 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: mainu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mainu.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mainu"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : mainu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/XILINX_PROJECTS/vga_2/divizor.vhd" in Library work.
+Architecture behavioral of Entity divizor is up to date.
+Compiling vhdl file "D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd" in Library work.
+Architecture behavioral of Entity pixel_counter is up to date.
+Compiling vhdl file "D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd" in Library work.
+Architecture behavioral of Entity h_v_sync is up to date.
+Compiling vhdl file "D:/XILINX_PROJECTS/vga_2/culori.vhd" in Library work.
+Architecture behavioral of Entity culori is up to date.
+Compiling vhdl file "D:/XILINX_PROJECTS/vga_2/mainu.vhd" in Library work.
+Entity <mainu> compiled.
+Entity <mainu> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <mainu> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <divizor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <pixel_counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <H_V_SYNC> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <culori> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <mainu> in library <work> (Architecture <behavioral>).
+Entity <mainu> analyzed. Unit <mainu> generated.
+
+Analyzing Entity <divizor> in library <work> (Architecture <behavioral>).
+Entity <divizor> analyzed. Unit <divizor> generated.
+
+Analyzing Entity <pixel_counter> in library <work> (Architecture <behavioral>).
+Entity <pixel_counter> analyzed. Unit <pixel_counter> generated.
+
+Analyzing Entity <H_V_SYNC> in library <work> (Architecture <behavioral>).
+Entity <H_V_SYNC> analyzed. Unit <H_V_SYNC> generated.
+
+Analyzing Entity <culori> in library <work> (Architecture <behavioral>).
+Entity <culori> analyzed. Unit <culori> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <divizor>.
+    Related source file is "D:/XILINX_PROJECTS/vga_2/divizor.vhd".
+WARNING:Xst:1780 - Signal <aux> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <x>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <divizor> synthesized.
+
+
+Synthesizing Unit <pixel_counter>.
+    Related source file is "D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd".
+    Found 10-bit up counter for signal <pos_x>.
+    Found 10-bit up counter for signal <pos_y>.
+    Summary:
+	inferred   2 Counter(s).
+Unit <pixel_counter> synthesized.
+
+
+Synthesizing Unit <H_V_SYNC>.
+    Related source file is "D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd".
+    Found 11-bit comparator less for signal <hs$cmp_lt0000> created at line 41.
+    Found 11-bit comparator less for signal <vs$cmp_lt0000> created at line 42.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <H_V_SYNC> synthesized.
+
+
+Synthesizing Unit <culori>.
+    Related source file is "D:/XILINX_PROJECTS/vga_2/culori.vhd".
+Unit <culori> synthesized.
+
+
+Synthesizing Unit <mainu>.
+    Related source file is "D:/XILINX_PROJECTS/vga_2/mainu.vhd".
+WARNING:Xst:1780 - Signal <forma_ok> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <mainu> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Comparators                                          : 2
+ 11-bit comparator less                                : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 2
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 2
+ 11-bit comparator less                                : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <mainu> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mainu, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 21
+ Flip-Flops                                            : 21
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : mainu.ngr
+Top Level Output File Name         : mainu
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 75
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 18
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      LUT4                        : 8
+#      LUT4_D                      : 1
+#      LUT4_L                      : 1
+#      MUXCY                       : 18
+#      MUXF5                       : 1
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 21
+#      FDR                         : 21
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 2
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                       17  out of   1920     0%  
+ Number of Slice Flip Flops:             21  out of   3840     0%  
+ Number of 4 input LUTs:                 34  out of   3840     0%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    173     4%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------+------------------------+-------+
+Clock Signal                        | Clock buffer(FF name)  | Load  |
+------------------------------------+------------------------+-------+
+clk                                 | BUFGP                  | 1     |
+C2/creste_y(C2/pos_x_cmp_eq000033:O)| NONE(*)(C2/pos_y_0)    | 10    |
+C1/x                                | NONE(C2/pos_x_0)       | 10    |
+------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.249ns (Maximum Frequency: 190.520MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 10.274ns
+   Maximum combinational path delay: 7.824ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.490ns (frequency: 401.542MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.490ns (Levels of Logic = 0)
+  Source:            C1/x (FF)
+  Destination:       C1/x (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: C1/x to C1/x
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             11   0.626   0.972  C1/x (C1/x)
+     FDR:R                     0.892          C1/x
+    ----------------------------------------
+    Total                      2.490ns (1.518ns logic, 0.972ns route)
+                                       (61.0% logic, 39.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'C2/creste_y'
+  Clock period: 5.210ns (frequency: 191.950MHz)
+  Total number of paths / destination ports: 155 / 20
+-------------------------------------------------------------------------
+Delay:               5.210ns (Levels of Logic = 2)
+  Source:            C2/pos_y_8 (FF)
+  Destination:       C2/pos_y_0 (FF)
+  Source Clock:      C2/creste_y rising
+  Destination Clock: C2/creste_y rising
+
+  Data Path: C2/pos_y_8 to C2/pos_y_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.626   1.066  C2/pos_y_8 (C2/pos_y_8)
+     LUT4:I0->O            1   0.479   0.704  C2/pos_y_cmp_eq000019 (C2/pos_y_cmp_eq000019)
+     LUT4:I3->O           10   0.479   0.964  C2/pos_y_cmp_eq000033 (C2/pos_y_cmp_eq0000)
+     FDR:R                     0.892          C2/pos_y_0
+    ----------------------------------------
+    Total                      5.210ns (2.476ns logic, 2.734ns route)
+                                       (47.5% logic, 52.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'C1/x'
+  Clock period: 5.249ns (frequency: 190.520MHz)
+  Total number of paths / destination ports: 155 / 20
+-------------------------------------------------------------------------
+Delay:               5.249ns (Levels of Logic = 2)
+  Source:            C2/pos_x_2 (FF)
+  Destination:       C2/pos_x_0 (FF)
+  Source Clock:      C1/x rising
+  Destination Clock: C1/x rising
+
+  Data Path: C2/pos_x_2 to C2/pos_x_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.626   1.040  C2/pos_x_2 (C2/pos_x_2)
+     LUT4:I0->O            2   0.479   0.768  C2/pos_x_cmp_eq000020 (C2/pos_x_cmp_eq000020)
+     LUT4:I3->O           10   0.479   0.964  C2/pos_x_cmp_eq000033_1 (C2/pos_x_cmp_eq000033)
+     FDR:R                     0.892          C2/pos_x_0
+    ----------------------------------------
+    Total                      5.249ns (2.476ns logic, 2.773ns route)
+                                       (47.2% logic, 52.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'C2/creste_y'
+  Total number of paths / destination ports: 9 / 1
+-------------------------------------------------------------------------
+Offset:              10.274ns (Levels of Logic = 4)
+  Source:            C2/pos_y_7 (FF)
+  Destination:       vsync (PAD)
+  Source Clock:      C2/creste_y rising
+
+  Data Path: C2/pos_y_7 to vsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.626   1.066  C2/pos_y_7 (C2/pos_y_7)
+     LUT4:I0->O            1   0.479   0.851  vsync232 (vsync232)
+     LUT3:I1->O            1   0.479   0.704  vsync234_SW0 (N4)
+     LUT4:I3->O            1   0.479   0.681  vsync234 (vsync_OBUF)
+     OBUF:I->O                 4.909          vsync_OBUF (vsync)
+    ----------------------------------------
+    Total                     10.274ns (6.972ns logic, 3.302ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'C1/x'
+  Total number of paths / destination ports: 5 / 1
+-------------------------------------------------------------------------
+Offset:              8.075ns (Levels of Logic = 3)
+  Source:            C2/pos_x_8 (FF)
+  Destination:       hsync (PAD)
+  Source Clock:      C1/x rising
+
+  Data Path: C2/pos_x_8 to hsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.626   1.066  C2/pos_x_8 (C2/pos_x_8)
+     LUT4:I0->O            1   0.479   0.000  hsync11 (hsync1)
+     MUXF5:I0->O           1   0.314   0.681  hsync1_f5 (hsync_OBUF)
+     OBUF:I->O                 4.909          hsync_OBUF (hsync)
+    ----------------------------------------
+    Total                      8.075ns (6.328ns logic, 1.747ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4 / 3
+-------------------------------------------------------------------------
+Delay:               7.824ns (Levels of Logic = 3)
+  Source:            selectie_color_1 (PAD)
+  Destination:       red (PAD)
+
+  Data Path: selectie_color_1 to red
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.715   1.040  selectie_color_1_IBUF (selectie_color_1_IBUF)
+     LUT2:I0->O            1   0.479   0.681  C4/r1 (red_OBUF)
+     OBUF:I->O                 4.909          red_OBUF (red)
+    ----------------------------------------
+    Total                      7.824ns (6.103ns logic, 1.721ns route)
+                                       (78.0% logic, 22.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.57 secs
+ 
+--> 
+
+Total memory usage is 292468 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

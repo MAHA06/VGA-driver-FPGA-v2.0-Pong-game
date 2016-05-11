@@ -1,0 +1,72 @@
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/afisaj.xst" -ofn "D:/XILINX_PROJECTS/vga_2/afisaj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc afisaj.ucf -p xc3s200-ft256-5 afisaj.ngc afisaj.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o afisaj_map.ncd afisaj.ngd afisaj.pcf 
+par -w -intstyle ise -ol high -t 1 afisaj_map.ncd afisaj.ncd afisaj.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml afisaj.twx afisaj.ncd -o afisaj.twr afisaj.pcf -ucf afisaj.ucf 
+bitgen -intstyle ise -f afisaj.ut afisaj.ncd 

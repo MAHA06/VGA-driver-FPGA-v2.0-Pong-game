@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/mihai/Desktop/vga_2/da.xst" -ofn "C:/Users/mihai/Desktop/vga_2/da.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 da.ngc da.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o da_map.ncd da.ngd da.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 da.ngc da.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o da_map.ncd da.ngd da.pcf 
+par -w -intstyle ise -ol high -t 1 da_map.ncd da.ncd da.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml da.twx da.ncd -o da.twr da.pcf -ucf mainu.ucf 
+bitgen -intstyle ise -f da.ut da.ncd 

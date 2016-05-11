@@ -3,88 +3,61 @@ Xilinx Mapping Report File for Design 'MAIN'
 
 Design Information
 ------------------
-Command Line   : map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol
-high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
--pr off -lc off -power off -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
-Target Device  : xc6slx16
-Target Package : csg324
-Target Speed   : -3
-Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Tue Apr 19 16:40:02 2016
+Command Line   : map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off
+-c 100 -o MAIN_map.ncd MAIN.ngd MAIN.pcf 
+Target Device  : xc3s200
+Target Package : ft256
+Target Speed   : -5
+Mapper Version : spartan3 -- $Revision: 1.55 $
+Mapped Date    : Sat May 07 17:22:37 2016
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:    1
-Slice Logic Utilization:
-  Number of Slice Registers:                    22 out of  18,224    1%
-    Number used as Flip Flops:                  22
-    Number used as Latches:                      0
-    Number used as Latch-thrus:                  0
-    Number used as AND/OR logics:                0
-  Number of Slice LUTs:                         97 out of   9,112    1%
-    Number used as logic:                       95 out of   9,112    1%
-      Number using O6 output only:              50
-      Number using O5 output only:              16
-      Number using O5 and O6:                   29
-      Number used as ROM:                        0
-    Number used as Memory:                       0 out of   2,176    0%
-    Number used exclusively as route-thrus:      2
-      Number with same-slice register load:      0
-      Number with same-slice carry load:         2
-      Number with other load:                    0
+Number of warnings:    2
+Logic Utilization:
+  Total Number Slice Registers:          74 out of   3,840    1%
+    Number used as Flip Flops:           52
+    Number used as Latches:              22
+  Number of 4 input LUTs:               371 out of   3,840    9%
+Logic Distribution:
+  Number of occupied Slices:            234 out of   1,920   12%
+    Number of Slices containing only related logic:     234 out of     234 100%
+    Number of Slices containing unrelated logic:          0 out of     234   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:         443 out of   3,840   11%
+    Number used as logic:               371
+    Number used as a route-thru:         72
 
-Slice Logic Distribution:
-  Number of occupied Slices:                    37 out of   2,278    1%
-  Number of MUXCYs used:                        32 out of   4,556    1%
-  Number of LUT Flip Flop pairs used:           97
-    Number with an unused Flip Flop:            75 out of      97   77%
-    Number with an unused LUT:                   0 out of      97    0%
-    Number of fully used LUT-FF pairs:          22 out of      97   22%
-    Number of unique control sets:               3
-    Number of slice register sites lost
-      to control set restrictions:              18 out of  18,224    1%
-
-  A LUT Flip Flop pair for this architecture represents one LUT paired with
-  one Flip Flop within a slice.  A control set is a unique combination of
-  clock, reset, set, and enable signals for a registered element.
   The Slice Logic Distribution report is not meaningful if the design is
   over-mapped for a non-slice resource or if Placement fails.
 
-IO Utilization:
-  Number of bonded IOBs:                        10 out of     232    4%
-    Number of LOCed IOBs:                       10 out of      10  100%
+  Number of bonded IOBs:                 13 out of     173    7%
+  Number of BUFGMUXs:                     2 out of       8   25%
 
-Specific Feature Utilization:
-  Number of RAMB16BWERs:                         0 out of      32    0%
-  Number of RAMB8BWERs:                          0 out of      64    0%
-  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
-  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
-  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
-    Number used as BUFGs:                        1
-    Number used as BUFGMUX:                      0
-  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
-  Number of ILOGIC2/ISERDES2s:                   0 out of     248    0%
-  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     248    0%
-  Number of OLOGIC2/OSERDES2s:                   0 out of     248    0%
-  Number of BSCANs:                              0 out of       4    0%
-  Number of BUFHs:                               0 out of     128    0%
-  Number of BUFPLLs:                             0 out of       8    0%
-  Number of BUFPLL_MCBs:                         0 out of       4    0%
-  Number of DSP48A1s:                            2 out of      32    6%
-  Number of ICAPs:                               0 out of       1    0%
-  Number of MCBs:                                0 out of       2    0%
-  Number of PCILOGICSEs:                         0 out of       2    0%
-  Number of PLL_ADVs:                            0 out of       2    0%
-  Number of PMVs:                                0 out of       1    0%
-  Number of STARTUPs:                            0 out of       1    0%
-  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+Average Fanout of Non-Clock Nets:                2.60
 
-Average Fanout of Non-Clock Nets:                2.42
+Peak Memory Usage:  272 MB
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   2 secs 
 
-Peak Memory Usage:  376 MB
-Total REAL time to MAP completion:  15 secs 
-Total CPU time to MAP completion:   9 secs 
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
 
 Table of Contents
 -----------------
@@ -110,20 +83,21 @@ Section 2 - Warnings
 WARNING:PhysDesignRules:372 - Gated clock. Clock net C2/INC_Y is sourced by a
    combinatorial pin. This is not good design practice. Use the CE pin to
    control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net iCLK is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
 
 Section 3 - Informational
 -------------------------
+INFO:LIT:243 - Logical network maneta1_IBUF has no load.
+INFO:LIT:395 - The above info message is repeated 1 more times for the following
+   (max. 5 shown):
+   maneta2_IBUF
+   To see the details of these info messages, please use the -detail switch.
 INFO:MapLib:562 - No environment variables are currently set.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
    rate limited output drivers. The delay on speed critical single ended outputs
    can be dramatically reduced by designating them as fast outputs.
-INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
-   0.000 to 85.000 Celsius)
-INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
-   1.260 Volts)
-INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
-   (.mrp).
-INFO:Pack:1650 - Map created a placed design.
 
 Section 4 - Removed Logic Summary
 ---------------------------------
@@ -157,6 +131,9 @@ Section 6 - IOB Properties
 | SEL_FORM<0>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | SEL_FORM<1>                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | VS                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_verificare                     | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| maneta1                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| maneta2                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Section 7 - RPMs
@@ -185,15 +162,7 @@ Area Group Information
 
 Section 10 - Timing Report
 --------------------------
-A logic-level (pre-route) timing report can be generated by using Xilinx static
-timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
-mapped NCD and PCF files. Please note that this timing report will be generated
-using estimated delay information. For accurate numbers, please generate a
-timing report with the post Place and Route NCD file.
-
-For more information about the Timing Analyzer, consult the Xilinx Timing
-Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
-Command Line Tools User Guide "TRACE" chapter.
+This design was not run using timing mode.
 
 Section 11 - Configuration String Details
 -----------------------------------------
@@ -201,7 +170,7 @@ Use the "-detail" map option to print out Configuration Strings
 
 Section 12 - Control Set Information
 ------------------------------------
-Use the "-detail" map option to print out Control Set Information.
+No control set information for this architecture.
 
 Section 13 - Utilization by Hierarchy
 -------------------------------------

@@ -2,12 +2,12 @@
 Release 14.4 Trace  (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
--n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf mainu.ucf
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAIN.ucf
 
 Design file:              MAIN.ncd
 Physical constraint file: MAIN.pcf
-Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2012-12-04)
+Device,package,speed:     xc3s200,ft256,-5 (PRODUCTION 1.39 2012-12-04)
 Report level:             verbose report
 
 Environment Variable      Effect 
@@ -24,6 +24,14 @@ INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on
    a 50 Ohm transmission line loading model.  For the details of this model, 
    and for more information on accounting for different loading conditions, 
    please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
 
 
 
@@ -31,39 +39,47 @@ Data Sheet report:
 -----------------
 All values displayed in nanoseconds (ns)
 
+Clock CLK to Pad
+--------------+------------+------------------+--------+
+              | clk (edge) |                  | Clock  |
+Destination   |   to PAD   |Internal Clock(s) | Phase  |
+--------------+------------+------------------+--------+
+led_verificare|    8.485(R)|CLK_BUFGP         |   0.000|
+--------------+------------+------------------+--------+
+
 Clock to Setup on destination clock CLK
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-CLK            |         |         |         |    1.175|
+CLK            |    4.108|         |         |    2.778|
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-SEL_COL<0>     |GREEN          |    6.740|
-SEL_COL<0>     |RED            |    7.413|
-SEL_COL<1>     |BLUE           |    6.486|
-SEL_COL<1>     |RED            |    6.522|
-SEL_FORM<0>    |BLUE           |    9.997|
-SEL_FORM<0>    |GREEN          |    9.741|
-SEL_FORM<0>    |RED            |   10.033|
-SEL_FORM<1>    |BLUE           |   10.164|
-SEL_FORM<1>    |GREEN          |    9.908|
-SEL_FORM<1>    |RED            |   10.200|
+SEL_COL<0>     |GREEN          |    7.998|
+SEL_COL<0>     |RED            |    7.927|
+SEL_COL<1>     |BLUE           |    7.114|
+SEL_COL<1>     |RED            |    7.118|
+SEL_FORM<0>    |BLUE           |   10.514|
+SEL_FORM<0>    |GREEN          |   10.523|
+SEL_FORM<0>    |RED            |   10.439|
+SEL_FORM<1>    |BLUE           |   10.215|
+SEL_FORM<1>    |GREEN          |   10.224|
+SEL_FORM<1>    |RED            |   10.140|
 ---------------+---------------+---------+
 
 
-Analysis completed Tue Apr 19 16:40:45 2016 
+Analysis completed Sat May 07 17:22:58 2016 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 226 MB
+Peak Memory Usage: 152 MB
 
 
 

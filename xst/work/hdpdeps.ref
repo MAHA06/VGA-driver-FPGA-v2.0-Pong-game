@@ -1,15 +1,145 @@
-V3 22
+V3 93
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/culori.vhd" 2016/04/25.19:28:19 P.49d
+EN work/COLORS 1462630942 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/culori.vhd" \
+      PB ieee/std_logic_1164 1354696159
+AR work/COLORS/BEHAVIORAL 1462630943 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/culori.vhd" \
+      EN work/COLORS 1462630942
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/DIVIDE.vhd" 2016/04/27.11:49:01 P.49d
+EN work/divide 1462630946 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/DIVIDE.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/divide/divide_et_impera 1462630947 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/DIVIDE.vhd" \
+      EN work/divide 1462630946
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/divizor.vhd" 2016/05/03.20:06:40 P.49d
+EN work/FREQ_DIVIDER 1462630936 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/divizor.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/FREQ_DIVIDER/B 1462630937 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/divizor.vhd" \
+      EN work/FREQ_DIVIDER 1462630936
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/form.vhd" 2016/05/07.17:22:01 P.49d
+EN work/detect_form 1462630944 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/form.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/detect_form/Behavioral 1462630945 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/form.vhd" \
+      EN work/detect_form 1462630944 CP INTERIOR_CERC CP jaluzele
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/H_V_SYNC.vhd" 2016/05/03.20:02:35 P.49d
+EN work/H_V_SYNC 1462630940 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/H_V_SYNC.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/H_V_SYNC/Behavioral 1462630941 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/H_V_SYNC.vhd" \
+      EN work/H_V_SYNC 1462630940
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd" 2016/05/03.20:35:16 P.49d
+EN work/INTERIOR_CERC 1462630932 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/INTERIOR_CERC/Behavioral 1462630933 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd" \
+      EN work/INTERIOR_CERC 1462630932
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/jaluzele.vhd" 2016/04/27.11:56:12 P.49d
+EN work/JALUZELE 1462630934 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/jaluzele.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/JALUZELE/Behavioral 1462630935 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/jaluzele.vhd" \
+      EN work/JALUZELE 1462630934
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/mainu.vhd" 2016/05/03.20:35:19 P.49d
+EN work/MAIN 1462630948 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/mainu.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/MAIN/BEHAVIORAL 1462630949 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/mainu.vhd" \
+      EN work/MAIN 1462630948 CP FREQ_DIVIDER CP pixel_counter CP H_V_SYNC CP COLORS \
+      CP detect_form CP divide
+FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/pixel_counter.vhd" 2016/05/03.20:28:04 P.49d
+EN work/pixel_counter 1462630938 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/pixel_counter.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/pixel_counter/Behavioral 1462630939 \
+      FL "C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/pixel_counter.vhd" \
+      EN work/pixel_counter 1462630938
+FL C:/Users/mihai/Desktop/vga_2/culori.vhd 2016/04/25.19:28:19 P.49d
+FL C:/Users/mihai/Desktop/vga_2/da.vhd 2016/04/25.16:46:12 P.49d
+FL C:/Users/mihai/Desktop/vga_2/detect_form.vhd 2016/04/25.18:30:41 P.49d
+FL C:/Users/mihai/Desktop/vga_2/divizor.vhd 2016/04/12.08:38:55 P.49d
+FL C:/Users/mihai/Desktop/vga_2/H_V_SYNC.vhd 2016/04/25.20:04:23 P.49d
+FL C:/Users/mihai/Desktop/vga_2/INTERIOR_CERC.vhd 2016/04/25.18:43:08 P.49d
+FL C:/Users/mihai/Desktop/vga_2/JALUZELE.vhd 2016/04/19.23:37:57 P.49d
+FL C:/Users/mihai/Desktop/vga_2/mainu.vhd 2016/04/25.16:59:22 P.49d
+FL C:/Users/mihai/Desktop/vga_2/pixel_counter.vhd 2016/04/12.08:30:32 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/culori.vhd" 2016/04/25.19:28:19 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/DIVIDE.vhd" 2016/04/27.11:49:01 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/divizor.vhd" 2016/05/03.20:06:40 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/form.vhd" 2016/04/27.11:56:41 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/H_V_SYNC.vhd" 2016/05/03.20:02:35 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd" 2016/05/03.20:35:16 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/jaluzele.vhd" 2016/04/27.11:56:12 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/mainu.vhd" 2016/05/03.20:35:19 P.49d
+FL "C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/pixel_counter.vhd" 2016/05/03.20:28:04 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/CHANGE_SQUARE_ORIGIN.vhd 2016/04/26.23:05:56 P.49d
+EN work/CHANGE_SQUARE_ORIGIN 1461701479 \
+      FL D:/XILINX_PROJECTS/teste/vga_2/CHANGE_SQUARE_ORIGIN.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/CHANGE_SQUARE_ORIGIN/Behavioral 1461701480 \
+      FL D:/XILINX_PROJECTS/teste/vga_2/CHANGE_SQUARE_ORIGIN.vhd \
+      EN work/CHANGE_SQUARE_ORIGIN 1461701479
+FL D:/XILINX_PROJECTS/teste/vga_2/compute2.vhd 2016/04/26.23:01:16 P.49d
+EN work/compute2 1461701998 FL D:/XILINX_PROJECTS/teste/vga_2/compute2.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/compute2/Behavioral 1461701999 \
+      FL D:/XILINX_PROJECTS/teste/vga_2/compute2.vhd EN work/compute2 1461701998
+FL D:/XILINX_PROJECTS/teste/vga_2/culori.vhd 2016/04/25.19:28:19 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/da.vhd 2016/04/27.01:00:58 P.49d
+EN work/da 1461708075 FL D:/XILINX_PROJECTS/teste/vga_2/da.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/da/Behavioral 1461708076 \
+      FL D:/XILINX_PROJECTS/teste/vga_2/da.vhd EN work/da 1461708075
+FL D:/XILINX_PROJECTS/teste/vga_2/detect_form.vhd 2016/04/27.00:08:47 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/DIVIDE.vhd 2016/04/27.11:49:01 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/divizor.vhd 2016/04/12.08:38:55 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/e_patrat.vhd 2016/04/27.00:56:35 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/form.vhd 2016/04/27.11:56:41 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/H_V_SYNC.vhd 2016/04/27.00:15:45 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/INTERIOR_CERC.vhd 2016/04/27.11:56:16 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/JALUZELE.vhd 2016/04/27.11:56:12 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/mainu.vhd 2016/04/27.11:55:41 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/patratel_update.vhd 2016/04/27.00:26:25 P.49d
+EN work/patratel_update 1461708067 \
+      FL D:/XILINX_PROJECTS/teste/vga_2/patratel_update.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
+      PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/patratel_update/Behavioral 1461708068 \
+      FL D:/XILINX_PROJECTS/teste/vga_2/patratel_update.vhd \
+      EN work/patratel_update 1461708067
+FL D:/XILINX_PROJECTS/teste/vga_2/pixel_counter.vhd 2016/04/27.12:04:53 P.49d
+FL D:/XILINX_PROJECTS/teste/vga_2/TREAT_COLLISION.vhd 2016/04/26.23:07:34 P.49d
+EN work/TREAT_COLLISION 1461701366 \
+      FL D:/XILINX_PROJECTS/teste/vga_2/TREAT_COLLISION.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/TREAT_COLLISION/Behavioral 1461701367 \
+      FL D:/XILINX_PROJECTS/teste/vga_2/TREAT_COLLISION.vhd \
+      EN work/TREAT_COLLISION 1461701366
 FL D:/XILINX_PROJECTS/vga_2/culori.vhd 2016/04/07.01:01:42 P.49d
 EN work/culori 1460034015 FL D:/XILINX_PROJECTS/vga_2/culori.vhd \
       PB ieee/std_logic_1164 1354696159
 AR work/culori/Behavioral 1460034016 \
       FL D:/XILINX_PROJECTS/vga_2/culori.vhd EN work/culori 1460034015
 FL D:/XILINX_PROJECTS/vga_2/detect_form.vhd 2016/04/07.15:59:16 P.49d
-EN work/detect_form 1460033960 FL D:/XILINX_PROJECTS/vga_2/detect_form.vhd \
-      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
-      PB ieee/STD_LOGIC_UNSIGNED 1354696162
-AR work/detect_form/Behavioral 1460033961 \
-      FL D:/XILINX_PROJECTS/vga_2/detect_form.vhd EN work/detect_form 1460033960
 FL D:/XILINX_PROJECTS/vga_2/divizor.vhd 2016/04/07.00:07:48 P.49d
 EN work/divizor 1460034009 FL D:/XILINX_PROJECTS/vga_2/divizor.vhd \
       PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
@@ -17,11 +147,6 @@ EN work/divizor 1460034009 FL D:/XILINX_PROJECTS/vga_2/divizor.vhd \
 AR work/divizor/Behavioral 1460034010 \
       FL D:/XILINX_PROJECTS/vga_2/divizor.vhd EN work/divizor 1460034009
 FL D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd 2016/04/07.00:53:25 P.49d
-EN work/H_V_SYNC 1460034013 FL D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd \
-      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
-      PB ieee/STD_LOGIC_UNSIGNED 1354696162
-AR work/H_V_SYNC/Behavioral 1460034014 \
-      FL D:/XILINX_PROJECTS/vga_2/H_V_SYNC.vhd EN work/H_V_SYNC 1460034013
 FL D:/XILINX_PROJECTS/vga_2/mainu.vhd 2016/04/07.16:00:05 P.49d
 EN work/mainu 1460034017 FL D:/XILINX_PROJECTS/vga_2/mainu.vhd \
       PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
@@ -30,8 +155,3 @@ AR work/mainu/Behavioral 1460034018 \
       FL D:/XILINX_PROJECTS/vga_2/mainu.vhd EN work/mainu 1460034017 CP divizor \
       CP pixel_counter CP H_V_SYNC CP culori
 FL D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd 2016/04/07.15:58:43 P.49d
-EN work/pixel_counter 1460034011 FL D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd \
-      PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
-      PB ieee/STD_LOGIC_UNSIGNED 1354696162
-AR work/pixel_counter/Behavioral 1460034012 \
-      FL D:/XILINX_PROJECTS/vga_2/pixel_counter.vhd EN work/pixel_counter 1460034011

@@ -5,10 +5,111 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="92" delta="old" >"C:\Users\mihai\Desktop\vga_2\detect_form.vhd" Line 73: <arg fmt="%s" index="1">e_cerc</arg> should be on the sensitivity list of the process
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MAIN</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/mainu.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/mainu.vhd</arg>&quot;.
 </msg>
 
-<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MAIN/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/mainu.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/mainu.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/COLORS</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/culori.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/culori.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/COLORS/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/culori.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/culori.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/divide</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/DIVIDE.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/DIVIDE.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/divide/divide_et_impera</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/DIVIDE.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/DIVIDE.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FREQ_DIVIDER</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/divizor.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/divizor.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FREQ_DIVIDER/B</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/divizor.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/divizor.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DETECT_FORM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/form.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/form.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DETECT_FORM/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/form.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/form.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/H_V_SYNC</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/H_V_SYNC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/H_V_SYNC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/H_V_SYNC/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/H_V_SYNC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/H_V_SYNC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PIXEL_COUNTER</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/pixel_counter.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/pixel_counter.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PIXEL_COUNTER/BEHAVIORAL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/pixel_counter.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/pixel_counter.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/INTERIOR_CERC</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/INTERIOR_CERC/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/JALUZELE</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/jaluzele.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/jaluzele.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/JALUZELE/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/mihai/Google Drive/FACULTA/PROIECT_FRONT_BACK/PROIECT_FRONT_BACK/jaluzele.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/jaluzele.vhd</arg>&quot;.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/culori.vhd</arg>&quot; line <arg fmt="%d" index="2">35</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="1610" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/form.vhd</arg>&quot; line <arg fmt="%d" index="2">67</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">GRANITA</arg>&gt; has a width of <arg fmt="%d" index="4">10</arg> bits but assigned expression is <arg fmt="%d" index="5">11</arg>-bit wide.
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/form.vhd</arg>&quot; line <arg fmt="%d" index="2">79</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/mihai/Desktop/test proiect/PROIECT_FRONT_BACK/form.vhd</arg>&quot; line <arg fmt="%d" index="2">53</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;e_cerc&gt;, &lt;e_linie&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">11</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">ox</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">11</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">oy</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">X&lt;10:7&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">X&lt;5:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">maneta1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">maneta2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">y_square</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">x_square</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">s2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">s1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">accel_y</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">accel_x</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 </msg>
 
 </messages>
+

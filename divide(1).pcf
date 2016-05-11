@@ -1,0 +1,10 @@
+//! **************************************************************************
+// Written by: Map P.49d on Mon Apr 25 16:53:44 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "mclk" LOCATE = SITE "L14" LEVEL 1;
+COMP "ceas" LOCATE = SITE "A8" LEVEL 1;
+NET "ceas_BUFGP/IBUFG" BEL "ceas_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

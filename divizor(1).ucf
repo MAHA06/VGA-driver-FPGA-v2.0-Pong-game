@@ -1,0 +1,2 @@
+net "clk" loc=a8;
+net "mclk" loc=l14;

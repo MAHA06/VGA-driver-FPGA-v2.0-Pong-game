@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/cer.xst" -ofn "D:/XILINX_PROJECTS/vga_2/cer.syr" 

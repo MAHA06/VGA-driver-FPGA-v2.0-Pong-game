@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/mihai/Desktop/vga_2/divide.xst" -ofn "C:/Users/mihai/Desktop/vga_2/divide.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 divide.ngc divide.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o divide_map.ncd divide.ngd divide.pcf 
+par -w -intstyle ise -ol high -t 1 divide_map.ncd divide.ncd divide.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divide.twx divide.ncd -o divide.twr divide.pcf 
+bitgen -intstyle ise -f divide.ut divide.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divide.ucf -p xc3s200-ft256-5 divide.ngc divide.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc divide.ucf -p xc3s200-ft256-5 divide.ngc divide.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o divide_map.ncd divide.ngd divide.pcf 
+par -w -intstyle ise -ol high -t 1 divide_map.ncd divide.ncd divide.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divide.twx divide.ncd -o divide.twr divide.pcf -ucf divide.ucf 
+bitgen -intstyle ise -f divide.ut divide.ncd 

@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\mihai\Desktop\vga_2\MAIN.ncd
-OUTFILE=C:\Users\mihai\Desktop\vga_2\MAIN.bit
-FAMILY=Spartan6
-PART=xc6slx16-3csg324
-WORKINGDIR=C:\Users\mihai\Desktop\vga_2
+INFILE=C:\Users\mihai\Desktop\test proiect\PROIECT_FRONT_BACK\MAIN.ncd
+OUTFILE=C:\Users\mihai\Desktop\test proiect\PROIECT_FRONT_BACK\MAIN.bit
+FAMILY=Spartan3
+PART=xc3s200-5ft256
+WORKINGDIR=C:\Users\mihai\Desktop\test proiect\PROIECT_FRONT_BACK
 LICENSE=WebPack
 USER_INFO=__0_0_0

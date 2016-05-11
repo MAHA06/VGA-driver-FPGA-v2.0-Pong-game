@@ -46,7 +46,7 @@ begin
 			if (CLK'EVENT) and (CLK = '0') then V := V+'1';
 			end if;
 		end if;
-		if V(1) = '1' then MCLK <= '1';
+		if V = "11" then MCLK <= '1';
 		else
 			MCLK <= '0';
 		end if;		

@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.49d on Tue Apr 19 01:26:44 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "afara<1>" LOCATE = SITE "E13" LEVEL 1;
+COMP "afara<2>" LOCATE = SITE "G15" LEVEL 1;
+COMP "afara<3>" LOCATE = SITE "H13" LEVEL 1;
+COMP "afara<4>" LOCATE = SITE "J14" LEVEL 1;
+COMP "afara<5>" LOCATE = SITE "E14" LEVEL 1;
+COMP "afara<6>" LOCATE = SITE "G16" LEVEL 1;
+COMP "afara<7>" LOCATE = SITE "H14" LEVEL 1;
+COMP "anod" LOCATE = SITE "F12" LEVEL 1;
+COMP "afara<0>" LOCATE = SITE "F13" LEVEL 1;
+SCHEMATIC END;
+

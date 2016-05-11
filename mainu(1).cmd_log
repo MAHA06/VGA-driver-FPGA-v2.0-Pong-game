@@ -1,0 +1,65 @@
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o mainu_map.ncd mainu.ngd mainu.pcf 
+par -w -intstyle ise -ol high -t 1 mainu_map.ncd mainu.ncd mainu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mainu.twx mainu.ncd -o mainu.twr mainu.pcf -ucf mainu.ucf 
+bitgen -intstyle ise -f mainu.ut mainu.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o mainu_map.ncd mainu.ngd mainu.pcf 
+par -w -intstyle ise -ol high -t 1 mainu_map.ncd mainu.ncd mainu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mainu.twx mainu.ncd -o mainu.twr mainu.pcf -ucf mainu.ucf 
+bitgen -intstyle ise -f mainu.ut mainu.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o mainu_map.ncd mainu.ngd mainu.pcf 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o mainu_map.ncd mainu.ngd mainu.pcf 
+par -w -intstyle ise -ol high -t 1 mainu_map.ncd mainu.ncd mainu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mainu.twx mainu.ncd -o mainu.twr mainu.pcf -ucf mainu.ucf 
+bitgen -intstyle ise -f mainu.ut mainu.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o mainu_map.ncd mainu.ngd mainu.pcf 
+par -w -intstyle ise -ol high -t 1 mainu_map.ncd mainu.ncd mainu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mainu.twx mainu.ncd -o mainu.twr mainu.pcf -ucf mainu.ucf 
+bitgen -intstyle ise -f mainu.ut mainu.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o mainu_map.ncd mainu.ngd mainu.pcf 
+par -w -intstyle ise -ol high -t 1 mainu_map.ncd mainu.ncd mainu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mainu.twx mainu.ncd -o mainu.twr mainu.pcf -ucf mainu.ucf 
+bitgen -intstyle ise -f mainu.ut mainu.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o mainu_map.ncd mainu.ngd mainu.pcf 
+par -w -intstyle ise -ol high -t 1 mainu_map.ncd mainu.ncd mainu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mainu.twx mainu.ncd -o mainu.twr mainu.pcf -ucf mainu.ucf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mainu_preroute.twx mainu_map.ncd -o mainu_preroute.twr mainu.pcf -ucf mainu.ucf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim mainu.ngc mainu_synthesis.v 
+netgen -intstyle ise -s 5  -pcf mainu.pcf -rpw 100 -tpw 0 -ar Structure -tm mainu -w -dir netgen/map -ofmt vhdl -sim mainu_map.ncd mainu_map.vhd 
+bitgen -intstyle ise -f mainu.ut mainu.ncd 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+xst -intstyle ise -ifn "D:/XILINX_PROJECTS/vga_2/mainu.xst" -ofn "D:/XILINX_PROJECTS/vga_2/mainu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mainu.ucf -p xc3s200-ft256-5 mainu.ngc mainu.ngd  
+map -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr off -c 100 -o mainu_map.ncd mainu.ngd mainu.pcf 
+par -w -intstyle ise -ol high -t 1 mainu_map.ncd mainu.ncd mainu.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mainu.twx mainu.ncd -o mainu.twr mainu.pcf -ucf mainu.ucf 
+bitgen -intstyle ise -f mainu.ut mainu.ncd 

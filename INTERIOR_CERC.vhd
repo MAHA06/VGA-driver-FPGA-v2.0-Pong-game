@@ -32,21 +32,31 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --use UNISIM.VComponents.all;
 
 entity INTERIOR_CERC is
-port(x,y,raza:in std_logic_vector(9 downto 0);ok:out std_logic);
+port(x,y,raza:in std_logic_vector(10 downto 0);ok:out std_logic);
 end INTERIOR_CERC;
 
 architecture Behavioral of INTERIOR_CERC is
-signal distanta:std_logic_vector(19 downto 0);signal ox,oy:std_logic_vector(9 downto 0);
+signal distanta:std_logic_vector(21 downto 0);signal ox,oy:std_logic_vector(10 downto 0);
 begin
 process(x,y)
 begin
-
-	ox<=x-400;
-	oy<=y-200;
+if(x>200 and x<400 and y>50 and y<300) then 
+	if x>300 then
+	ox<=x-300;
+	else
+	ox<=300-x;
+	end if;
 	
+	if y>150 then
+		oy<=y-150;
+	
+	else
+oy<=150-y;
+	end if;
+	end if;
 end process;
 distanta<=ox*ox+oy*oy;
-	ok<= '1' when distanta < raza*raza else '0';
+	ok<= '1' when distanta <= raza*raza else '0';
 
 
 end Behavioral;

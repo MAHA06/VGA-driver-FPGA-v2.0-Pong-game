@@ -8,7 +8,34 @@
 <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/vga_2/detect_form.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/DIVIDE.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/H_V_SYNC.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/INTERIOR_CERC.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/TREAT_COLLISION.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/culori.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/divizor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/form.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/jaluzele.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/mainu.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/mihai/Desktop/PREZENTARE dsd/PROIECT_FRONT_BACK (2)/PROIECT_FRONT_BACK/pixel_counter.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

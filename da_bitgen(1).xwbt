@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\mihai\Desktop\vga_2\da.ncd
+OUTFILE=C:\Users\mihai\Desktop\vga_2\da.bit
+FAMILY=Spartan3
+PART=xc3s200-5ft256
+WORKINGDIR=C:\Users\mihai\Desktop\vga_2
+LICENSE=WebPack
+USER_INFO=__0_0_0

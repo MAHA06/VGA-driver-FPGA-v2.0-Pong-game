@@ -1,0 +1,12 @@
+net "afara(1)" loc=e13;
+net "afara(0)" loc=f13;
+net "afara(2)" loc=g15;
+net "afara(3)" loc=h13;
+net "afara(4)" loc=j14;
+net "afara(5)" loc=e14;
+net "afara(6)" loc=g16;
+net "afara(7)" loc=h14;
+net "anod(0)" loc =f12;
+net "anod(0)" loc =f12;
+net "anod(0)" loc =f12;
+net "anod(0)" loc =f12;

@@ -1,0 +1,5 @@
+set -tmpdir "D:/XILINX_PROJECTS/teste/vga_2/xst/projnav.tmp"
+set -xsthdpdir "D:/XILINX_PROJECTS/teste/vga_2/xst"
+elaborate
+-ifn patratel_update.prj
+-ifmt mixed

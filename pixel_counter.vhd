@@ -33,19 +33,21 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity PIXEL_COUNTER is
 	port(MCLK:in std_logic;
-	X,Y:out std_logic_vector(9 downto 0));
+	X,Y:out std_logic_vector(10 downto 0));
 end PIXEL_COUNTER;
 
 architecture BEHAVIORAL of PIXEL_COUNTER is
-signal POS_X, POS_Y:std_logic_vector(9 downto 0);
+signal POS_X, POS_Y:std_logic_vector(10 downto 0);
 signal INC_Y:std_logic; --INCREMENT Y
 begin
 	process(MCLK)
 	begin
 			if (MCLK'EVENT) and (MCLK = '1') then
-				if (POS_X = "1100100000") then --800
-					POS_X <= "0000000000";
+				if (POS_X = "10000100000") then --1056
+					
+					POS_X <= "00000000000";
 				else
+				
 					POS_X <= POS_X + '1';
 				end if;
 			end if;
@@ -54,14 +56,14 @@ begin
 	process(INC_Y)
 	begin
 		if (INC_Y'EVENT) and (INC_Y='1') then
-				if (POS_Y = "1001011000") then --600
-					POS_Y <= "0000000000";
+				if (POS_Y = "01001110100") then --628
+					POS_Y <= "00000000000";
 				else
 					POS_Y <= POS_Y + '1';
 				end if;
 		end if;
 	end process;
-	INC_Y <= '1' when (POS_X = "1100100000") else '0';
+	INC_Y <= '1' when (POS_X = "10000100000") else '0';
 	X <= POS_X;
 	Y <= POS_Y;
 end BEHAVIORAL;

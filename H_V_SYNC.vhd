@@ -32,13 +32,14 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 --use UNISIM.VComponents.all;
 
 entity H_V_SYNC is
-	port(X, Y: in std_logic_vector(9 downto 0);
+	port(X, Y: in std_logic_vector(10 downto 0);
 	HS, VS: out std_logic);
 end H_V_SYNC;
 
 architecture BEHAVIORAL of H_V_SYNC is
 begin
-	 HS <= '1' when X < 96 else '0';
-	 VS <= '1' when Y < 2 else '0';
+	 HS <= '1' when X < 969 and x>840 else '0';
+
+	 VS <= '1' when Y < 606 and y>601 else '0';
 end BEHAVIORAL;
 

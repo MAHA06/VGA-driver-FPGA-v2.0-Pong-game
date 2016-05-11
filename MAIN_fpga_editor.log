@@ -1,0 +1,29 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.49d
+#Current Working Directory:
+#:D   C:\Users\mihai\Desktop\vga_2
+#Date/Time:
+#:T   Tue Apr 19 23:42:12 2016
+#------------------------------
+	#Reading MAIN.ncd...
+	#Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\14.4\ISE_DS\ISE\.
+	#   "MAIN" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
+	#Design creation date: 2016.04.19.20.40.02
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+unselect -all
+	#4
+select site 'SLICE_X11Y7'
+	#site "SLICE_X11Y7",  type = SLICEX  (RPM grid X35Y28)
+	#5
+unselect -all
+	#6
+select pin 'SLICE_X8Y6.B3'
+	#site.pin = SLICE_X8Y6.B3
